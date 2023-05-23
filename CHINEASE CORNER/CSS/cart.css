@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    position: relative;
+    bottom: -180px;
+}
+.cart-body{
+    display: flex;
+}
+.left-cart{
+    background-color: red;
+    height: 70vh;
+    width: 60%;
+    margin: 0vw 2vh;
+    border-radius: 10px;
+}
+.right-cart{
+    background-color: yellow;
+    height: 70vh;
+    width: 40%;
+    border-radius: 10px;
+}
+.top-cart{
+    background-color: black;
+    width: 100%;
+    height: 25vh;
+    padding: 1vh 1vw;
+    margin-bottom: 2vh;
+    border-radius: 8px;
+}
+.bottom-cart{
+    width: 100%;
+    height: 25vh;
+    background-color: brown;
+    border-radius: 8px;
+}

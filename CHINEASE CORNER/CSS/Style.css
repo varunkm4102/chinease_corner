@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(219, 248, 248);
+}
+header {
+  display: flex;
+  background-color: rgb(255, 144, 114);
+  border-radius: 3px;
+}
+.nav-left {
+  width: 50%;
+  /* background-color: yellow; */
+}
+.nav-left ul {
+  display: flex;
+  margin-left: 20vh;
+}
+.nav-left ul li {
+  list-style-type: none;
+  padding: 5vh;
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 3vh;
+  font-weight: bold;
+}
+.nav-left ul li a:hover {
+  transition: 0.5s;
+  border-bottom: 5px solid rgb(255, 106, 0);
+  color: rgb(255, 106, 0);
+}
+.nav-left .chinese-logo h2 {
+  padding: 2vh;
+}
+.nav-right {
+  /* background-color: blue; */
+  width: 50%;
+  display: flex;
+}
+.nav-right .search-content {
+  display: flex;
+  margin-left: 12vh;
+  margin-top: 9vh;
+  /* margin-left: 50vh; */
+}
+.content-search {
+  height: 7vh;
+  width: 36vh;
+  border-radius: 8px;
+  border: none;
+}
+.search-button {
+  width: 15vh;
+  height: 7vh;
+  margin-left: 1vh;
+  border-radius: 8px;
+}
+.login-content {
+  margin-left: 8vh;
+  padding: 2vh 1vh;
+  border-radius: 3px;
+}
+.login-content i {
+  margin: 0vh 1vh;
+  color: white;
+  font-size: 5vh;
+  border: 3px solid rgb(239, 232, 232);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.login-content i:hover {
+  /* background-color: rgb(255, 106, 0); */
+  color: rgb(255, 106, 0);
+  cursor: pointer;
+}
+
+main {
+  margin: auto;
+  margin-top: 3vh;
+  width: 70%;
+  height: 75vh;
+  background-image: url(/img/slide_image1.jpg);
+  border-radius: 10px;
+  overflow: hidden;
+  animation-name: slide_image;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: normal;
+}
+
+.product-content {
+  background-color: rgb(240, 213, 213);
+  border-radius: 5px;
+}
+.product-foods {
+  width: 50vh;
+  background-color: rgb(222, 255, 222);
+  border: 1px solid rgb(222, 255, 222);
+  border-radius: 5px;
+  margin: 2vh 3vh;
+  /* text-align: center; */
+  box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);
+}
+.product-foods h2{
+  color: red;
+}
+.product-foods img {
+  width: 50vh;
+  height: 50vh;
+  border-radius: 8px;
+}
+.product-foods img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.product-foods p {
+  color: rgb(108, 108, 108);
+  padding: 1vh 1vh;
+}
+.product-foods p:hover {
+  color: rgb(255, 106, 0);
+  cursor: pointer;
+  font-weight: bold;
+}
+.product-foods h2 {
+  color: rgb(255, 139, 57);
+  padding: 1vh 4vh;
+}
+.product-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-row-food {
+  display: flex;
+}
+.third-row-food {
+  display: flex;
+}
+
+.product-header h1 {
+  padding: 8vh 10vh;
+  font-size: 50px;
+}
+.row {
+  display: flex;
+}
+.col-lg-3 {
+  padding: 4vh 3vh;
+}
+.col-lg-3 ul {
+  display: flex;
+}
+.col-lg-3 ul li {
+  list-style-type: none;
+  padding: 1vh 2vh;
+}
+.col-lg-3 ul li a .fa{
+  color: white;
+}
+footer {
+  background-color: rgb(10, 8, 9);
+  margin-bottom: -80px;
+  color: whitesmoke;
+}
+.col-lg-4 {
+  padding: 4vh 3vh;
+  color: whitesmoke;
+}
+.col-lg-4 ul li {
+  list-style-type: none;
+}
+.col-lg-4 ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.col-lg-4 ul li a:hover {
+  color: rgb(255, 106, 0);
+}
+.col-lg-5 {
+  padding: 4vh 3vh;
+}
+.col-lg-5 p {
+  padding: 1vh 1vh;
+}
+.col-lg-6 {
+  padding: 20vh 3vh;
+  font-weight: bolder;
+}
+
+#nav-cart{
+  margin: 1vh 4vh;
+}
+.cart-item{
+  /* background-color: red; */
+  padding-right: 10px;
+}

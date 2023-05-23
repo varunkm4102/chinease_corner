@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
+.font1 {
+  font-family: "Roboto", sans-serif;
+}
+.font2 {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.container {
+  margin: 10vh;
+}
+.btn {
+  font-size: 3vh;
+  font-weight: bold;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(255, 106, 0);
+  transition: 0.5s;
+  border-color: rgb(255, 106, 0);
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+
+.input-click:focus {
+  background-color: rgb(255, 106, 0);
+  color: white;
+  font-weight: bolder;
+  outline: none;
+  padding: 0px 15px;
+}
+.active{
+  background-color: rgb(255, 106, 0);
+  border: 3px solid rgb(255, 106, 0);
+  color: white;
+  cursor: pointer;
+}

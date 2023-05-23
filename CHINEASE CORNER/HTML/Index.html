@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chinese Corner</title>
+    <link rel="stylesheet" href="/CSS/Style.css" />
+    <link rel="stylesheet" href="/CSS/utilities.css" />
+    <link rel="stylesheet" href="/CSS/Animation.css" />
+    <link rel="stylesheet" href="/CSS/shop.css" />
+    <script
+      src="https://kit.fontawesome.com/1553cdc8ce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header content -->
+
+    <header>
+      <nav class="nav-left font1">
+        <div class="chinese-logo"><h2>Chinease Corner</h2></div>
+        <ul>
+          <li><a href="/HTML/Index.html">Home</a></li>
+          <li><a href="/HTML/shop.html">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav class="nav-right font2">
+        <div class="search-content">
+          <input
+            type="text"
+            class="content-search input-click"
+            placeholder="              Search Food..."
+          />
+          <button type="button" class="search-button btn">Search</button>
+        </div>
+        <div class="login-content">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          <i class="fa-solid fa-user"></i>
+          <a href="/HTML/cart.html"
+            ><i class="fa-solid fa-cart-shopping" id="nav-cart"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Slide images  -->
+
+    <main>
+      <!-- <img src="/img/slide_image1.jpg" alt="images"> -->
+    </main>
+
+    <!-- Product contents -->
+
+    <div class="product-content container">
+      <div class="product-header">
+        <h1>Chinese Foods</h1>
+      </div>
+      <div class="product-body">
+        <div class="product-foods">
+          <div>
+            <img src="/img/dim sum.jpg" alt="dim sum" />
+            <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          </div>
+          <div class="cart-item">
+            <button type="button" class="cart-button" onclick="addCart('dimSum')">
+              ADD TO CART
+            </button>
+          </div>
+          <h2 class="font2">Dim Sum</h2>
+          <p class="font1">
+            Dim sum is a style of Chinese cuisine that originated in the
+            Guangdong province in southern China and has become popular all over
+            the world. It is typically served as small bite-sized portions of
+            food served in steamer baskets or small plates and is meant to be
+            shared among a group of people.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/cantonese chicken soup.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="" onclick="addCart('dimSum')">ADD TO CART</button>
+          </div>
+          <h2 class="font2">cantonese chicken soup</h2>
+          <p class="font1">
+            The result is a clear and flavorful soup with a delicate yet robust
+            taste, and tender pieces of chicken that are both nourishing and
+            satisfying. The soup is often served as a comforting and restorative
+            meal, especially when someone is feeling unwell or has a cold.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/hakka noddles.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">hakka noddles</h2>
+          <p class="font1">
+            The noodles are typically cooked al dente and are stir-fried in a
+            wok with vegetables such as bell peppers, onions, and carrots, as
+            well as meats like chicken, beef, or tofu. A flavorful sauce, made
+            with ingredients like soy sauce, oyster sauce, and hoisin sauce, is
+            then added to the noodles to bring all the flavors together.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/peri-peri chicken.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">peri-peri chicken</h2>
+          <p class="font1">
+            The key ingredient in Peri-Peri Chicken is the Peri-Peri chili,
+            which is a small and fiery chili pepper native to Africa. The chili
+            is combined with other spices, such as garlic, onion, lemon juice,
+            and paprika, to create a flavorful marinade that infuses the chicken
+            with heat and depth of flavor
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/quick noodles.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">quick noodles</h2>
+          <p class="font1">
+            Quick Noodles are typically packaged in a cup or bowl, along with a
+            flavor packet, and they can be prepared in just a few minutes by
+            adding hot water and allowing the noodles to soak up the flavor.
+            They come in a wide range of flavors, including chicken, beef,
+            shrimp, and various types of Asian-style soups.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/vegetable fried rice.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">vegetable fried rice</h2>
+          <p class="font1">
+            The dish is typically prepared in a wok or large frying pan, with
+            the ingredients being stir-fried together over high heat until the
+            rice is evenly coated and the vegetables are tender yet still crisp.
+            The seasonings used can vary, but commonly used ingredients include
+            soy sauce, oyster sauce, sesame oil, and ginger.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/spring roll.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">spring roll</h2>
+          <p class="font1">
+            The filling for Spring Rolls can vary greatly, but common
+            ingredients include cabbage, carrots, mushrooms, and bean sprouts,
+            as well as meats like pork, chicken, or shrimp. The filling is
+            wrapped in a thin wrapper made from a mixture of flour and water,
+            which is then fried until crispy.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/cab rangoon.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">crab rangoon</h2>
+          <p class="font1">
+            The filling for Crab Rangoon typically consists of crab meat, cream
+            cheese, and a mixture of seasonings such as green onions, garlic,
+            and soy sauce. The filling is spooned into wonton wrappers, which
+            are then folded into a triangle shape and fried until crispy.
+          </p>
+        </div>
+
+        <div class="product-foods">
+          <img src="/img/honey food.jpg" alt="dim sum" />
+          <h3 class="font1">&nbsp;&nbsp;&nbsp;&nbsp;500&nbsp;₹</h3>
+          <div class="cart-item">
+            <button type="button" class="">ADD TO CART</button>
+          </div>
+          <h2 class="font2">Honey Shrimp</h2>
+          <p class="font1">
+            The sauce for Honey Shrimp is typically made by combining honey, soy
+            sauce, ketchup, and cornstarch, which is then heated until thick and
+            sticky. The shrimp are then coated in the sauce and fried until
+            crispy and golden.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2>Contact Us</h2>
+            <br />
+            <p>
+              123 Main Street <br />
+              Mumbai, India <br />
+              <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a>
+              <br />
+              (123) 456-7890
+            </p>
+            <ul class="social-links">
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h3>Quick Links</h3>
+            <br />
+            <ul class="quick-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-5">
+            <h3>Newsletter</h3>
+            <p>
+              Subscribe to our newsletter and stay up-to-date with all the
+              latest news and events from Your Website.
+            </p>
+            <form action="#" method="post">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email address"
+                />
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <p class="copyright">&copy; Your Website 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
